@@ -1,3 +1,48 @@
+# AirBnB clone - MySQL
+> This directory contains all the tasks of the project "0x02. AirBnB clone - MySQL" at [Holberton School](https://www.holbertonschool.com "Holberton School.")
+
+![GitHub repo size](https://img.shields.io/github/repo-size/enochneier/AirBnB_clone_v2?style=for-the-badge) ![GitHub last commit](https://img.shields.io/github/last-commit/enochneier/AirBnB_clone_v2?style=for-the-badge) ![GitHub contributors](https://img.shields.io/github/contributors/enochneier/AirBnB_clone_v2?style=for-the-badge) [![Enochneier](https://img.shields.io/twitter/url?style=social&url=https%3A%2F%2Ftwitter.com%2Fenochneier)](https://twitter.com/enochneier)
+
+## Table of Contents
+
+- [AirBnB clone - MySQL](#airbnb-clone---mysql)
+  - [Table of Contents](#table-of-contents)
+  - [Project General Objectives](#project-general-objectives)
+  - [Project Description](#project-description)
+  - [Directory Files Description](#directory-files-description)
+  - [AUTHORS](#authors)
+  - [License](#license)
+  - [Acknowledgments](#acknowledgments)
+
+## Project General Objectives
+
+* What is Unit testing and how to implement it in a large project.
+* What is *args and how to use it.
+* What is **kwargs and how to use it.
+* How to handle named arguments in a function.
+* How to create a MySQL database.
+* How to create a MySQL user and grant it privileges.
+* What ORM means.
+* How to map a Python Class to a MySQL table.
+* How to handle 2 different storage engines with the same codebase.
+* How to use environment variables.
+
+## Project Description
+
+The Airbnb clone is one of the main projects at Holberton School, it's a long term project that we need to accomplish by building up trough a series of small modules or pieces. This project is thinking as a whole for a software developer, to learn and become a full-stack developer, gluing alltogether the infrastructure of the Airbnb from back to front, including databases, static and dynamic content, web frameworks, APIs, and web infrastructure.
+The first step that we need to build is "the console" or the command interpreter, this is meant to be a tool to validate or manipulate the storage system, through the console we are gonna be able of:
+* Create our data model.
+* Manage (create, update, destroy, etc) objects.
+* Store and persist objects to a file (JSON file)
+
+This storage engine will give us an abstraction between “My object” and “How they are stored and persisted”.
+
+You can find this in: [AirBnB clone - The console](https://github.com/luismvargasg/AirBnB_clone)
+
+For the second part of the project we should build the database connection through SQLAlchemy, the ORM of Python.
+
+Using a MySQL storage we replace the file storage (JSON file) by a Database storage and we map your models to a table in database by using an O.R.M.
+
 <center> <h1>HBNB - The Console</h1> </center>
 
 This repository contains the initial stage of a student project to build a clone of the AirBnB website. This stage implements a backend interface, or console, to manage program data. Console commands allow the user to create, update, and destroy objects, as well as manage file storage. Using a system of JSON serialization/deserialization, storage is persistent between sessions.
@@ -52,16 +97,16 @@ This repository contains the initial stage of a student project to build a clone
 ##### Alternative Syntax
 Users are able to issue a number of console command using an alternative syntax:
 
-	Usage: <class_name>.<command>([<id>[name_arg value_arg]|[kwargs]])
+        Usage: <class_name>.<command>([<id>[name_arg value_arg]|[kwargs]])
 Advanced syntax is implemented for the following commands: 
 
     * all - Shows all objects the program has access to, or all objects of a given class
 
-	* count - Return number of object instances by class
+        * count - Return number of object instances by class
 
     * show - Shows an object based on class and UUID
 
-	* destroy - Destroys an object based on class and UUID
+        * destroy - Destroys an object based on class and UUID
 
     * update - Updates existing attributes an object based on class name and UUID
 
@@ -140,3 +185,18 @@ Usage: <class_name>.update(<_id>, <dictionary>)
 (hbnb) ["[User] (98bea5de-9cb0-4d78-8a9d-c4de03521c30) {'updated_at': datetime.datetime(2020, 2, 19, 21, 47, 29, 134362), 'name': 'Fred the Frog', 'age': 9, 'id': '98bea5de-9cb0-4d78-8a9d-c4de03521c30', 'created_at': datetime.datetime(2020, 2, 19, 21, 47, 29, 134343)}"]
 ```
 <br>
+
+## AUTHORS
+
+**Enochneier**
+
+* [Github @luismvargasg](https://github.com/enochneier)
+* [LinkedIn - Enochneier](https://www.linkedin.com/in/enochneier/)
+
+## License
+
+Opensource project.
+
+## Acknowledgments
+
+* Project made at Alx - uganda
