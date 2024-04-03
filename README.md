@@ -1,5 +1,5 @@
 # AirBnB clone - MySQL
-> This directory contains all the tasks of the project "0x02. AirBnB clone - MySQL" at [Holberton School](https://www.holbertonschool.com "Holberton School.")
+> This directory contains all the tasks of the project "0x02. AirBnB clone - MySQL"
 
 ![GitHub repo size](https://img.shields.io/github/repo-size/enochneier/AirBnB_clone_v2?style=for-the-badge) ![GitHub last commit](https://img.shields.io/github/last-commit/enochneier/AirBnB_clone_v2?style=for-the-badge) ![GitHub contributors](https://img.shields.io/github/contributors/enochneier/AirBnB_clone_v2?style=for-the-badge) [![Enochneier](https://img.shields.io/twitter/url?style=social&url=https%3A%2F%2Ftwitter.com%2Fenochneier)](https://twitter.com/enochneier)
 
@@ -190,7 +190,7 @@ Usage: <class_name>.update(<_id>, <dictionary>)
 
 **Enochneier**
 
-* [Github @luismvargasg](https://github.com/enochneier)
+* [Github @enochneier](https://github.com/enochneier)
 * [LinkedIn - Enochneier](https://www.linkedin.com/in/enochneier/)
 
 ## License
